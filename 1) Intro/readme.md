@@ -13,7 +13,7 @@
 
 ### How semantic Search Implemented:
 ![alt text](image-1.png)
-- All three paragraphs are first Converted to Embeddings or Vectors of definite Dimension using Word2Vec or BERT or any other ways.
+- All three paragraphs are first Converted to Embeddings or Vectors of definite Dimension using Word2Vec or BERT or any other ways
 - COnvert query into Embedding <br>
 ![alt text](image-2.png)
 - After converting into vectors, we find similarity bewtweeen teh Query vector and vectors of Th e three paras
