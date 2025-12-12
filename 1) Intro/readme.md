@@ -1,4 +1,4 @@
-# What is LAngChain
+# What is LangChain
 - Opensource  Framework for developing applications powered by  LLMs.
 ![alt text](image.png)
 - The Above is the System Design of an application where we can  uplod a pdf, and we can ask any question about the pdf
@@ -36,3 +36,18 @@
 - need to solve many Computational Problem.
 - Keeping this huge Systems in Computers is not a simple thignits an Engineering Challenge.
 -  These Challenges have been solved
+- Companies liek Opnen AI, Claude, Google have created Models and have also Have solved the Problem of deploying and maintaining those HUGE models!
+- Users can use it those models, by creating API keys, we can communicate with those models using the API keys!
+- Now for our project ,we wont use LLM as our brain, we will just use the LLM API's as the brain!
+- So handling the computatoion costs is solved by Queriying modles thorugh API keys.
+-  Third Challenge:
+- While we wanan develop tehse system, writing codes from scratch for each and every component like dataloader, text splitter,  Ebedding converter, etc will be a tedious process, this is solved by LangChain, which provides Built in Libraries to do these.
+## Application of LangChain:
+![alt text](image-6.png)
+- With langchain we can efficienly write codes (No need to code components from scratch, there are bult in Libraries)
+- we can Efficiently ORchestrate Workflows  
+Efficiently Build pipeline 
+- With minimal code, we can get Optimal Output
+## Other Frameworkms Similar to LangChain:
+- LlamaIndex
+- Haystack
