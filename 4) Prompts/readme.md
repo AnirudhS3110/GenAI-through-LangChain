@@ -25,3 +25,25 @@ hardcoding prompts, PromptTemplate allows you to define placeholders that can be
 - It does Validation of Input Data by default, to activate this, we need to use ```validate_template=True```
 - These are **REUSABLE**: Using this we can write the prompt as F-Strings and convert it into json file through ```prompt.save(filename)``` as in <a href="./prompt_generator.py">click</a>
 - **Highly coupled with LangChain Ecosystem**: We can use Prompts Easily integrated with Chains!
+
+### Messages:
+#### Types of Messages in LangChain:
+- 1) System Messages- Setting the Role of the Chat Model
+- 2) Human Messages
+- 3) AI Messages
+- With the help of these 3 types of meessages we can build a chatbot
+- using this we can easily classify the messages whether the message was sent by user / the ChatModel, helping us to seamlessly store the Chat history, which willl be sent as input to the ChatModel
+
+### Summary:
+![alt text](image.png)
+
+
+## Chat Prompt Templates:
+- used when either or both System message and Human Message is Dynamic.
+
+## Chat Prompt Template VS prompt Template:
+- Chat Prompt Templates are used to create Multi-Turn message cahtbot
+- Template is used to Crwate single turn message cahtbot (no context for the ChatModel)
+
+## MessagePlaceholder:
+- this helps to load the Chat HIstory into the chatPromptTemplate, it should be laid between System message adn the Human Message
