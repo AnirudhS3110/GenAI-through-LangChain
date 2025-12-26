@@ -23,11 +23,43 @@
 
 # ```with_structured_output```:
 - We need to define the data format before invoking the model
+- **Used only to the models which can produce structured outputs**
 - To do this we can use:
 - - <a href="./TypedDict/readme.md">TypedDict </a>
-- - Pydantic    
+- - <a href="./2)  Intro to Pydantic/readme.md"> Pydantic </a>  
 - - json_schema
 
+# When to use what:
+## Typed Dict if:
+![alt text](image-2.png)
+## Pydantic if:
+![alt text](image-3.png)
+## Use JSON schema if:
+![alt text](image-4.png)
+
+##  When to Use What?
+
+| Feature                     | TypedDict  | Pydantic   | JSON Schema   |
+|----------------------------|-------------|----------------|------------------|
+| Basic structure            | ✅           | ✅              | ✅                |
+| Type enforcement           | ✅           | ✅              | ✅                |
+| Data validation            | ❌           | ✅              | ✅                |
+| Default values             | ❌           | ✅              | ❌                |
+| Automatic conversion       | ❌           | ✅              | ❌                |
+| Cross-language compatibility | ❌         | ❌              | ✅                |
+
+## two main ways ```with_structured_output``` can force an LLM to return structured, machine-readable data.
+### JSON mode:
+- Forcs model to give output only as JSON
+- used with gemini api and claude api
+
+## Function Calling mode:
+- Model selects and fills arguments of a predefined “function”
+- Output from the Chat Model is used to Call  a function/tool/agent
+- You want model output to trigger actions, Workflow automation
+- use when there is Multiple possible outputs
+- Used when creating agents
+- Mostly used with OpenAI api
 
 
 
