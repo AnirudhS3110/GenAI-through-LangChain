@@ -79,3 +79,5 @@ Output:
 ```
 {'name': 'Anya Petrov', 'age': 27, 'city': 'Berlin, Germany'}
 ```
+
+## <a href="../1) StrOutputParser/readme.md">Prev: StrOutputParser</a>

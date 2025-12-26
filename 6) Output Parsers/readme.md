@@ -6,7 +6,9 @@
 - Output parsers in Langchain, helps to Convert Raw LLM responses into Structured Formats, like JSON, CSV , Pydantic Models, to ensure Consistency, Validation and Ease of use of LLM responses in Applications, as in applications just a text string cant be maintained, it needs to be a structured output.
 
 ## Most used Output Parser Types:
-### 1) String Output parser
-### 2) JSON Output parser
+### <a href="./1) StrOutputParser/readme.md">1) String Output parser</a>
+### <a href="./2)JSON Output Parser/readme.md">2) JSON Output parser</a>
 ### 3) Structred Output parser
 ### 4) Pydantic Output Parser
+
+## 

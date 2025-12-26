@@ -89,3 +89,5 @@ Cricket is a bat-and-ball game played between two 11-player teams, popular in Co
 Batsmen are dismissed through various methods like being bowled out, caught, or run out, with an innings ending when 10 batsmen are out or a set number of overs are completed. Games are structured into overs (six legal balls from a bowler), and formats range from multi-day Test matches to fast-paced Twenty20 games, offering diverse strategic play.
 ```
 - Using ```StrOutputParser``` we can leverage ``chains`` of langchain, making the code simpler and easy to understand.
+
+## <a href="../2)JSON Output Parser/readme.md">Next: JSON Output Parse</a>
